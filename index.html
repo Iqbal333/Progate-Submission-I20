@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Progate Submission I20</title>
+    <title>My Jobs</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header>
+     <header>
+     
         <div class="header" id="menu-area">
             <div class="logo">
-                <h3>Progate</h3>
+                <h3>My Jobs</h3>
+
             </div>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -21,12 +24,27 @@
                 <li><button type="button" class="btn-navbar">Sign in</button></li>
             </ul>
         </div>
+
     </header>
 
+    <!-- main -->
     <div class="top-wrapper">
-        <h1>Find <span id="your-job">your job</span> here<br> get your future</h1>
+        <div class="container">
+            <div class="top">
+                <div class="text-wrapper">
+                    <h1>Find <span id="your-job">your job</span> here<br> get your future</h1>
+                    <input type="search" placeholder="Search your job" class="search">
+                </div>
+
+                <div class="img-wrapper">
+                    <img src="resource/image.png" style="height: 450px;">
+                </div>
+
+            </div>
+        </div>
     </div>
 
+    <!-- main tambahan -->
     <div class="lesson-wrapper">
         <div class="heading">
             <h2>Recommended Jobs</h2>
@@ -35,7 +53,9 @@
            
             <div class="box">
                 <div class="box-icon">
-                    <img src="/resource/indodax.png" alt="Indodax">
+
+                    <img src="resource/indodax.png" alt="Indodax">
+
                 </div>
                 <p class="txt-contents">Dev Ops</p>
                 <p class="pt">PT. Indodax</p>
@@ -45,7 +65,8 @@
 
             <div class="box">
                 <div class="box-icon">
-                    <img src="/resource//gojek.png" alt="">
+
+                    <img src="resource/gojek.png" alt="">
                 </div>
                 <p class="txt-contents">Android Developer</p>
                 <p class="pt">PT. Aplikasi Karya Anak Bangsa</p>
@@ -55,7 +76,9 @@
 
             <div class="box">
                 <div class="box-icon">
-                    <img style="width: 200px; height: 200px;" src="/resource/indomaret.png" alt="Indomaret">
+
+                    <img style="width: 200px; height: 200px;" src="resource/indomaret.png" alt="Indomaret">
+
                 </div>
                 <p class="txt-contents">Back End Developer</p>
                 <p class="pt">Indomaret Group</p>
@@ -65,7 +88,9 @@
 
             <div class="box">
                 <div class="box-icon">
-                    <img src="/resource/shopee.png" alt="">
+
+                    <img src="resource/shopee.png" alt="">
+
                 </div>
                 <p class="txt-contents">Front End Developer</p>
                 <p class="pt">Shopee</p>
@@ -78,11 +103,14 @@
         </div>
     </div>
 
-    <script>
+    <footer></footer>
+
+     <script>
         window.addEventListener('scroll', function(){
-        var section = document.querySelector('.header');
-        section.classList.toggle('cus-nav', window.scrollY > 0);
-        });
+  var section = document.querySelector('.header');
+  section.classList.toggle('cus-nav', window.scrollY > 0);
+});
+     
     </script>
 </body>
 </html>
