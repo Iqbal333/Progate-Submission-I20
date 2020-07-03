@@ -52,10 +52,12 @@
         display:none;
     }
 
-	.menu-icon{
-	    display:block;
-	    padding-top: 10px;
-	  }
+    .menu-icon{
+	 display:block;
+	 margin-top: 10px;
+	 color:black;
+  	 float:right;
+    }
 
 /* main */
 	.top-wrapper{
